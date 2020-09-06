@@ -12,7 +12,7 @@
 
 </p>
 
-<form id="sandphotoform" action="/sandphoto.php" method="POST" enctype="multipart/form-data"><strong>第一步</strong>, 选择你要冲洗的证件照片的尺寸：
+<form id="sandphotoform" action="/sandphoto/sandphoto.php" method="POST" enctype="multipart/form-data"><strong>第一步</strong>, 选择你要冲洗的证件照片的尺寸：
 <?php
 include('sandphoto.inc');
 $parser = 新建 PhotoTypeParser();
@@ -44,6 +44,6 @@ $parser->render_select('container_type', 8);
 
 如果你的照片比较大， 上传会花一些时间， 别着急， 请耐心等待。
 
-</form>如果大家有什么建议，请留言。 也欢迎帮助宣传本站。 本站的地址是：<a href="http://www.sandcomp.com/blog/sandphoto/">http://www.sandcomp.com/blog/sandphoto/</a>
+</form>如果大家有什么建议，请留言。 也欢迎帮助宣传本站。
 </body>
 </html>
