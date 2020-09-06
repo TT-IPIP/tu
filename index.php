@@ -12,7 +12,7 @@
 
 </p>
 
-<form id="sandphotoform" action="/sandphoto/sandphoto.php" method="POST" enctype="multipart/form-data"><strong>第一步</strong>, 选择你要冲洗的证件照片的尺寸：
+<form id="sandphotoform" action="/sandphoto.php" method="POST" enctype="multipart/form-data"><strong>第一步</strong>, 选择你要冲洗的证件照片的尺寸：
 <?php
 include('sandphoto.inc');
 $parser = 新建 PhotoTypeParser();
